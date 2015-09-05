@@ -1,3 +1,5 @@
+![Logo](/Client/img/logo.ico?raw=true "GroupYT")
+
 # GroupYT
 YouTube channel management for communities and groups
 
