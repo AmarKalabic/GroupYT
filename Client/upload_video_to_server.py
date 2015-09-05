@@ -16,15 +16,15 @@ def make_Info(filename, title, description, tags):
 
 
 def printTotals(transferred, toBeTransferred):
-    print "Transferred: {0}\tOut of: {1}".format(transferred, toBeTransferred) #"Transferred: {0}\tOut of: {1}".format(transferred, toBeTransferred)
+    print "Transferred: {0}\tOut of: {1}".format(transferred, toBeTransferred)
     #giveStatus(transferredData = transferred, dataToBeTransferred = toBeTransferred)
 
 """def giveStatus(transferredData, dataToBeTransferred): #transferred_data, dataToTransfer
     result = []
     result.append(transferredData)
-    result.append(dataToBeTransferred)
-    global_result = result
-    print global_result
+    result.append(dataToBeTransferred)                                <----- This is not used at the moment, it's meant to
+    global_result = result                                            <----- send data towards START.py in order to update
+    print global_result                                               <----- progress bar.
     return result"""
 
 def upload_Start(filename):
